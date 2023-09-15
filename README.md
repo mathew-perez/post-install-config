@@ -53,7 +53,7 @@ Admin Panel -> Agents -> Department -> Add New Department
 ![image](https://github.com/mathew-perez/post-install-config/assets/144407220/7913e645-14cb-4d0f-8f8f-3dc6accaa8b8)
 
 
-Ensure you do this before you move on. Go to "Settings" then "User Settings." Make sure require registration and login to create tickets sure setting is unchecked. This allows anyone to create tickets. 
+Ensure you do this before you move on. Go to "Settings" then "User Settings." Make sure "require registration and login to create tickets"  setting is unchecked. This allows anyone to create tickets. 
 
 ![image](https://github.com/mathew-perez/post-install-config/assets/144407220/c5b97324-1f01-4ee0-bd74-b83553d852d5)
 
