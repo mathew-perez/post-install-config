@@ -11,7 +11,6 @@ The tutorial is [here](https://github.com/mathew-perez/osticket-prereqs/).
 
 First go to http://localhost/osTicket/scp/login.php in your browser and log in with the information entered from the prerequestites install.
 
-All work in this tutorial will be done in the "Admin Panel."
 
 <h2>Environments and Technologies Used</h2>
 
