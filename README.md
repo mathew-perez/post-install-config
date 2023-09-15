@@ -98,17 +98,14 @@ Admin Panel -> Manage -> SLA -> Add New SLA Plan
 ![image](https://github.com/mathew-perez/post-install-config/assets/144407220/ac3c7e41-8172-4d54-870f-6594d9db6103)
 
 
-
 <h3>7. Step 7: Add Help Topics</h3>
 The last step is to add help topics. These topics can be selected by the user however agents and administrators can change them once received. 
 
-<p>
-<img src="https://i.imgur.com/WMdg6VY.png" height="80%" width="80%" alt="22."/>
-</p>
+Admin Panel -> Manage -> Help Topics -> Add New Help Topic
 
-<p>
-<img src="https://i.imgur.com/r4fFjdU.png" height="80%" width="80%" alt="23."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/49890e94-fb9d-4cab-8c9d-d553aab33c6d)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/07b79597-433a-4051-b9a1-69717d97a1be)
+
 
 After all that is done, osTicket is setup. The next tutorial will showcase how to submit tickets and answer them. This will build intuition and skills for ticketing systems for both users and IT professionals. 
 
