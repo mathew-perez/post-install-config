@@ -3,11 +3,13 @@
 </p>
 
 <h1>osTicket - Post-Install Setup</h1>
-This tutorial will go over the post install setup of osTicket. This will require the complete of the prerequisites and install of osTicket. Please see the tutorial if that has not been done yet. 
+This tutorial will go over the post install setup of osTicket. This will require the completion of the prerequisites and install of osTicket. Please see the tutorial if that has not been done yet. 
 
 <p></p>
 
-The tutorial is [here](https://github.com/klcarpio/osTicket-Prerequisites-and-How-to-Install).
+The tutorial is [here](https://github.com/mathew-perez/osticket-prereqs/).
+
+First go to http://localhost/osTicket/scp/login.php in your browser and log in with the information entered from the prerequestites install.
 
 All work in this tutorial will be done in the "Admin Panel."
 
@@ -34,89 +36,53 @@ All work in this tutorial will be done in the "Admin Panel."
 <h2>Setup Steps</h2>
 
 <h3>1. Step 1: Add Roles</h3>
-First step is to add a role. Create an administrator that has all the permissions (Supreme Admin). 
+The first step is to add a role. Create an administrator that has all the permissions (Supreme Admin). 
 
-<p>
-<img src="https://i.imgur.com/PGjokdZ.png" height="80%" width="80%" alt="1."/>
-</p>
+Admin Panel -> Agents -> Roles -> Add New Role
 
-<p>
-<img src="https://i.imgur.com/QWSezhb.png" height="80%" width="80%" alt="2."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/6154a4ec-2940-4a77-929a-832f63d18270)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/8d1dc1f0-a4c8-4ef3-82bb-fb4236ff4bf3)
 
-<p>
-<img src="https://i.imgur.com/I34JbsS.png" height="80%" width="80%" alt="3."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/IZZkBRK.png" height="80%" width="80%" alt="4."/>
-</p>
-
-<p>
-<img src="https://i.imgur.com/fWQxRCs.png" height="80%" width="80%" alt="5."/>
 </p>
 
 <h3>2. Step 2: Add Departments</h3>
-Second step is add departments. 
+The second step is add departments. 
 
-<p>
-<img src="https://i.imgur.com/Q1X1q6l.png" height="80%" width="80%" alt="6."/>
-</p>
+Admin Panel -> Agents -> Department -> Add New Department
 
-<p>
-<img src="https://i.imgur.com/6YClBSL.png" height="80%" width="80%" alt="7."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/9a9e120e-90c9-4ca4-a0eb-21dd5eca64da)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/7913e645-14cb-4d0f-8f8f-3dc6accaa8b8)
 
-<p>
-<img src="https://i.imgur.com/AeRKqge.png" height="80%" width="80%" alt="8."/>
-</p>
 
-Ensure you do this before you move on. Go to "Settings" then "User Settings." Make sure this setting is unchecked. 
+Ensure you do this before you move on. Go to "Settings" then "User Settings." Make sure require registration and login to create tickets sure setting is unchecked. This allows anyone to create tickets. 
 
-<p>
-<img src="https://i.imgur.com/C06CzAA.png" height="80%" width="80%" alt="9."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/c5b97324-1f01-4ee0-bd74-b83553d852d5)
 
 <h3>3. Step 3: Add Teams</h3>
-Third step is to add teams. 
+The third step is to add teams. 
 
-<p>
-<img src="https://i.imgur.com/J1n1lqh.png" height="80%" width="80%" alt="10."/>
-</p>
+Admin Panel -> Agents -> Teams -> Add New Team
 
-<p>
-<img src="https://i.imgur.com/z2aWJXl.png" height="80%" width="80%" alt="11."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/a2bfc8a9-bdf4-40c9-99b0-b7755f6a5868)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/8451834f-818c-497a-8590-a83ccdec24bf)
 
 <h3>4. Step 4: Add Agents</h3>
-Fourth step is to add agents. Create two agents, one with adminitrator capablities (Jane Doe) and one with regular capabilities (John Doe). Make sure to set the passwords for the agents. 
+The fourth step is to add agents. Create two agents, one with adminitrator capablities (Jane Doe) and one with regular capabilities (John Doe). Make sure to set the passwords for the agents. 
 
-<p>
-<img src="https://i.imgur.com/1rlNbBz.png" height="80%" width="80%" alt="12."/>
-</p>
+Admin Panel -> Agents -> Add New Agent
 
-<p>
-<img src="https://i.imgur.com/eOz2Ylx.png" height="80%" width="80%" alt="13."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/bb3d3b4a-4b34-4983-ac64-23a4bd07bd8d)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/b256fca5-671b-468e-891b-c2260c594bbf)
 
-<p>
-<img src="https://i.imgur.com/TDapqhD.png" height="80%" width="80%" alt="14."/>
-</p>
 
 <h3>5. Step 5: Add Users</h3>
-Fifth step is to add users. Users can be added in either the Agent Panel or Admin Panel. In this example, the Agent Panel was utilized and two users were created. 
+The fifth step is to add users. Users can be added in either the Agent Panel or Admin Panel. In this example, the Agent Panel was utilized and two users were created. 
 
-<p>
-<img src="https://i.imgur.com/toIlWlF.png" height="80%" width="80%" alt="15."/>
-</p>
+Agent Panel -> Users -> Add User
 
-<p>
-<img src="https://i.imgur.com/VyNZb2S.png" height="80%" width="80%" alt="16."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/f580e2c8-c683-4d26-a221-0f0ece561fed)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/241fb6e7-d579-487d-b8ce-59116bddf532)
 
-<p>
-<img src="https://i.imgur.com/CXwjmJ8.png" height="80%" width="80%" alt="17."/>
-</p>
 
 <h3>6. Step 6: Add Service Level Agreements (SLAs)</h3>
 The sixth step is to add Service Level Agreements (SLAs). SLAs are basically the expected turn around times that tickets are created by the user. SLAs can vary in severity and in this example, three were created. 
@@ -125,24 +91,16 @@ The sixth step is to add Service Level Agreements (SLAs). SLAs are basically the
 2. Sev-B (4 hour turnaround, 24/7 schedule)
 3. Sev-C (8 hour turnaround, Monday - Friday 8AM - 5PM)
 
-<p>
-<img src="https://i.imgur.com/6RMaLcV.png" height="80%" width="80%" alt="18."/>
-</p>
+Admin Panel -> Manage -> SLA -> Add New SLA Plan
 
-<p>
-<img src="https://i.imgur.com/k6upd9b.png" height="80%" width="80%" alt="19."/>
-</p>
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/b61e0bab-ee35-4588-b0a0-c2e83bcdee03)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/96443978-a91c-4323-8a40-4051c69ba4da)
+![image](https://github.com/mathew-perez/post-install-config/assets/144407220/ac3c7e41-8172-4d54-870f-6594d9db6103)
 
-<p>
-<img src="https://i.imgur.com/tx1rAy1.png" height="80%" width="80%" alt="20."/>
-</p>
 
-<p>
-<img src="https://i.imgur.com/tx1rAy1.png" height="80%" width="80%" alt="21."/>
-</p>
 
 <h3>7. Step 7: Add Help Topics</h3>
-Seventh and final step is to add help topics. These topics can be selected by the user however agents and administrators can change them once received. 
+The last step is to add help topics. These topics can be selected by the user however agents and administrators can change them once received. 
 
 <p>
 <img src="https://i.imgur.com/WMdg6VY.png" height="80%" width="80%" alt="22."/>
