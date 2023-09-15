@@ -3,13 +3,13 @@
 </p>
 
 <h1>osTicket - Post-Install Setup</h1>
-This tutorial will go over the post install setup of osTicket. This will require the completion of the prerequisites and install of osTicket. Please see the tutorial if that has not been done yet. 
+This tutorial will go over the post install setup of osTicket. This will require the completion of  osTicket instalation and it's prerequesites. Please see the tutorial if that has not been done yet. 
 
 <p></p>
 
 The tutorial is [here](https://github.com/mathew-perez/osticket-prereqs/).
 
-First go to http://localhost/osTicket/scp/login.php in your browser and log in with the information entered from the prerequestites install.
+First go to http://localhost/osTicket/scp/login.php in your browser and log in using the information from the prerequestites install.
 
 
 <h2>Environments and Technologies Used</h2>
