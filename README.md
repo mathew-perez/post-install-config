@@ -109,4 +109,4 @@ Admin Panel -> Manage -> Help Topics -> Add New Help Topic
 After all that is done, osTicket is setup. The next tutorial will showcase how to submit tickets and answer them. This will build intuition and skills for ticketing systems for both users and IT professionals. 
 
 
-**REMEMBER TO DELETE YOUR RESOURCES ONCE YOU ARE DONE WITH THE LAB!**
+
