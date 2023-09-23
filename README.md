@@ -106,7 +106,7 @@ Admin Panel -> Manage -> Help Topics -> Add New Help Topic
 ![image](https://github.com/mathew-perez/post-install-config/assets/144407220/07b79597-433a-4051-b9a1-69717d97a1be)
 
 
-After all that is done, osTicket is setup. The next tutorial will showcase how to submit tickets and answer them. This will build intuition and skills for ticketing systems for both users and IT professionals. 
+After all that is done, osTicket is setup. The next tutorial will showcase the ticket lifecycle.
 
 
 
